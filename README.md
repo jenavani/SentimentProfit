@@ -89,3 +89,26 @@ Once you have installed the dependencies and placed the CSV files in the correct
 * **Insights Section:** Read the "Key Insights & Potential Trading Strategies" section for a summary of findings and actionable recommendations.
 
 ## File Structure
+.
+├── app.py                      # Main Streamlit application script
+├── fear_greed_index.csv        # Market sentiment data
+└── historical_data.csv         # Historical trader performance data
+└── README.md                   # This README file
+
+
+**(Optional: Create a `requirements.txt` file by running `pip freeze > requirements.txt` after installing all dependencies.)**
+
+## Insights & Strategies
+
+(You can copy and paste the detailed insights from the "Key Insights & Potential Trading Strategies" section of your `app.py` here for a more comprehensive README.)
+
+## Future Enhancements
+
+This project can be further optimized and expanded. Some ideas include:
+
+* **Advanced Feature Engineering:** Incorporate risk-adjusted returns (Sharpe Ratio, Sortino Ratio), maximum drawdowns, or explore lagged sentiment indicators.
+* **Machine Learning Models:** Implement predictive models to forecast profitable trading days based on sentiment and other market signals.
+* **Trader Segmentation:** Utilize clustering algorithms (e.g., K-Means) to identify distinct trading styles and analyze their interaction with market sentiment.
+* **Causal Inference:** Investigate causal relationships between sentiment shifts and trading outcomes using advanced statistical methods.
+* **More Granular Data:** Integrate data at a higher frequency (e.g., hourly, minute-by-minute) for more detailed analysis.
+* **Real-time Data Integration:** Connect to live APIs for real-time sentiment and tradi
